@@ -1,0 +1,58 @@
+* pascal keywords
+
+The primary source for this is _Standard Pascal User Reference Manual_ by Doug Cooper which elucidates the ISO 7185 Standard Pascal.
+
+As the only compiler I'm working with is Free Pascal 3.2.2, and it's around forty years since the original standard was published, a few more reserved types and minimal extensions (break, continue, exit, etc.) are included.
+
+
+** raw words pulled from bnf
+
+program
+label
+const
+type
+array of
+record end
+set of
+file of
+var
+procedure
+function
+relational operators = <> < <= >= > in
+adding operators + - or
+multiplying operators * / div mod and
+not
+nil
+goto
+begin end
+if then
+if then else
+case of end
+while do
+repeat until
+for to do
+for downto do
+with do
+
+** reserved word categories
+*** structuring
+*** directives
+*** defining
+*** statements
+**** sequential
+**** iterative
+**** grouping
+*** sweeteners
+*** type names
+*** required functions
+
+** comments
+
+** extensions
+*** structuring with units
+*** compiler directives via 'preprocessing'
+*** objects and classes
+*** record helpers
+*** modern structured programming additions (break, exit)
+
+  
